@@ -1,0 +1,41 @@
+html, body {
+  background-color: black;
+}
+h1 {
+  color: white;
+  font-family: 'Rammetto One', cursive;
+}
+#calcOutput {
+  background-color: white;
+  height: 75px;
+  width: 250px;
+  border-top-left-radius: 1.5em;
+  border-top-right-radius: 1.5em;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 25px;
+}
+#calculator {
+  background-color: #ccc;
+  width: 250px;
+  margin-left: auto;
+  margin-right:auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-bottom-left-radius: 1.5em;
+  border-bottom-right-radius: 1.5em;
+  padding: 10px 15px 10px 15px;
+}
+#steps {
+  padding-left: 40px;
+  font-size: 1.8em;
+}
+
+a, a#deleteAll, a#backOne {
+  margin-bottom: 2px;
+  width: 2.6vw;
+  height: 2.6vw;
+}
+.bigBtn {
+  width: 85px;
+}
